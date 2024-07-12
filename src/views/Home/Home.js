@@ -24,9 +24,12 @@ function Home() {
             const {author ,title, description, url, urlToImage ,publishedAt, content} = newsArticle
 
             return(
-                <div>
+                <>
+                <div className='news-artical-cards' >
                     <img src={urlToImage} alt="" className='news-artical-img'/>
+                    <h3>{title}</h3>
                 </div>
+                </>
             )
             
             }  )
