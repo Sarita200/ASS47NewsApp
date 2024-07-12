@@ -35,7 +35,7 @@ function Home() {
       onChange={(e) =>{
       setSearchQuery(e.target.value)
       }}
-    
+      className='search-box'
       />
 
       <div className='news-container'> 
