@@ -5,7 +5,7 @@ function NewsArticle({ author, title, description, url, urlToImage, publishedAt,
     return (
         <div className='news-artical-cards' >
             <img src={urlToImage} alt="" className='news-artical-img' />
-            <h2 className='article-title'>{title}</h2>
+            <h3 className='article-title'>{title}</h3>
             <div className='article-info'>
                 <p className='article-author '>
                     {author}
