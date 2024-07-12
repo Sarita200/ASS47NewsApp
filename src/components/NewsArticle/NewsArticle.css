@@ -1,0 +1,27 @@
+.news-artical-img{
+    height: 220px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.news-artical-cards{
+    margin-bottom: 20px;
+    width: 400px;
+    border: 1px solid rgb(54, 50, 50);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 8px;
+}
+.article-title{
+
+}
+.article-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.article-desciption{
+    
+}
