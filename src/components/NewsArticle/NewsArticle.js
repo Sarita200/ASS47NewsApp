@@ -10,9 +10,11 @@ function NewsArticle({ author, title, description, url, urlToImage, publishedAt,
                 <p className='article-author '>
                     {author}
                 </p>
-                
+                <p className='article-publishedAt'>
+                    {publishedAt}
+                </p>
             </div>
-            
+            <p className='article-desciption'>{description}</p>
         </div>
     )
 }
