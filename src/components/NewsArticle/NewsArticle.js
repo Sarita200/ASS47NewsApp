@@ -14,7 +14,9 @@ function NewsArticle({ author, title, description, url, urlToImage, publishedAt,
                     {publishedAt}
                 </p>
             </div>
-            <p className='article-desciption'>{description}</p>
+            <p className='article-desciption'>{description} ....<a href={url} target='blank' className='read-more-button'>Read more</a></p>
+
+            
         </div>
     )
 }

@@ -1,5 +1,5 @@
 .news-artical-img{
-    height: 220px;
+    height: 250px;
     width: 400px;
     display: block;
     margin: 0 auto;
@@ -13,15 +13,13 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding: 8px;
 }
-.article-title{
-
-}
 .article-info{
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 
 }
-.article-desciption{
-    
+.read-more-button{
+    text-decoration: none;
+    color: rgb(74, 73, 73);
 }
